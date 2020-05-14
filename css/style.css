@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* COLOR */
+
+/* #f5f8fa sfondo grigiolino */
+
+/* #ff7a59 arancio dei bottoni */
+
+
+/* COLOR */
+
+.center {
+  margin: 0 auto;
+  width: 80%;
+  /* debug */
+  height: 3000px;
+  background-color: blue;
+}
+
+.h-navfix {
+  position: fixed;
+  width: 80%;
+  /* debug */
+  height: 200px;
+  background-color: red;
+}
+
+.h-navfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.h-nav {
+  float: left;
+  border: 1px solid black;
+  width: 50%;
+  /* debug */
+  background-color: #f5f8fa;
+  height: 200px;
+  position: relative;
+}
+
+.navsx {
+  position: absolute;
+  top:50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.navdx {
+  position: absolute;
+  top:50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+ .padding-icon {
+   padding: 10px;
+ }
+
+.english {
+  border-right: 1px solid #000;
+  padding: 5px;
+}
+
+.login {
+  padding: 5px;
+}
+
+.login > a {
+  background-color: #fff;
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+  padding: 5px;
+  border-radius: 5%;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.fa-search {
+  color: #0099ff;
+}
+
+.button {
+  color: #fff;
+  padding: 5px;
+  background-color: #ff7a59;
+  border-radius: 5%;
+  text-decoration: none;
+  font-weight: 200;
+}
