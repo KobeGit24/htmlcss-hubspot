@@ -13,6 +13,21 @@
 
 /* COLOR */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* COLOR */
+
+/* #f5f8fa sfondo grigiolino */
+
+/* #ff7a59 arancio dei bottoni */
+
+
+/* COLOR */
+
 
 .center {
   padding: 0 20%;
@@ -35,6 +50,7 @@ a {
   width: 100%;
   border-bottom: 2px solid rgb(203,214,226);
   background-color: rgb(245,248,250);
+  z-index: 99;
 }
 
 .h-navfix::after {
@@ -65,6 +81,10 @@ a {
 
  .padding-icon {
   padding: 10px;
+ }
+
+ .padding-icon:first-child {
+   padding-left: 0;
  }
 
 .english {
@@ -129,6 +149,21 @@ a {
   display: table;
   clear: both;
 }
+
+.h-logo {
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+}
+
+.padd-add {
+  padding-left: 10px;
+}
+
+
 
 /* inizio main */
 
