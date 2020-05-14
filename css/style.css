@@ -12,8 +12,14 @@
 
 
 /* COLOR */
+
+
 .center {
   padding: 0 20%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -47,11 +53,10 @@
   transform: translate(0, -50%);
 }
 
-.navdx {
-  position: absolute;
-  top:50%;
-  right: 0;
-  transform: translate(0, -50%);
+.font-skill {
+  font-size: 20px;
+  color: #33475b;
+  font-weight: 500;
 }
 
  .padding-icon {
@@ -59,8 +64,17 @@
  }
 
 .english {
-  border-right: 1px solid #000;
+  border-right: 2px solid #33475b;
   padding: 5px;
+}
+
+/* inizio navdx */
+
+.navdx {
+  position: absolute;
+  top:50%;
+  right: 0;
+  transform: translate(0, -50%);
 }
 
 .login {
