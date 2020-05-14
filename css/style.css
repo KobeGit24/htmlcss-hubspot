@@ -22,7 +22,11 @@ a {
   text-decoration: none;
 }
 
-.container {
+* {
+  font-family: sans-serif;
+}
+
+.h-container {
   height: 1000px;
   background-color: blue;
 }
@@ -30,6 +34,7 @@ a {
 .h-navfix {
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid #33475b;
 }
 
 .h-navfix::after {
@@ -60,7 +65,7 @@ a {
 }
 
  .padding-icon {
-   padding: 10px;
+  padding: 10px;
  }
 
 .english {
@@ -83,23 +88,36 @@ a {
 
 .login > .log-b {
   background-color: #fff;
-  border: 1px solid #ff7a59;
-  color: #ff7a59;
-  padding: 5px;
+  border: 1px solid rgb(255,122,89);
+  color: rgb(255,122,89);
+  padding: 10px 20px;
   border-radius: 5%;
-  text-decoration: none;
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 20px;
+  transition: background-color 0.5s;
+}
+
+.log-b:hover {
+  background-color: rgba(255,122,89,0.2);
 }
 
 .fa-search {
   color: #0099ff;
+  font-size: 20px;
+  padding: 20px;
 }
 
 .button {
   color: #fff;
-  padding: 5px;
-  background-color: #ff7a59;
+  padding: 10px 20px;
+  background-color: rgb(255,122,89);
   border-radius: 5%;
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 500;
+  font-size: 20px;
+  transition: opacity 0.5s;
+}
+
+.button:hover {
+  opacity: 0.5;
 }
