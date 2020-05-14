@@ -12,21 +12,18 @@
 
 
 /* COLOR */
-
 .center {
-  margin: 0 auto;
-  width: 80%;
-  /* debug */
-  height: 3000px;
+  padding: 0 20%;
+}
+
+.container {
+  height: 1000px;
   background-color: blue;
 }
 
 .h-navfix {
   position: fixed;
-  width: 80%;
-  /* debug */
-  height: 200px;
-  background-color: red;
+  width: 100%;
 }
 
 .h-navfix::after {
@@ -37,11 +34,9 @@
 
 .h-nav {
   float: left;
-  border: 1px solid black;
   width: 50%;
-  /* debug */
   background-color: #f5f8fa;
-  height: 200px;
+  min-height: 200px;
   position: relative;
 }
 
@@ -72,7 +67,7 @@
   padding: 5px;
 }
 
-.login > a {
+.login > .log-b {
   background-color: #fff;
   border: 1px solid #ff7a59;
   color: #ff7a59;
