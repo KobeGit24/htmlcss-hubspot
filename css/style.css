@@ -264,15 +264,15 @@ h3 {
 
 /* inizio seconda sezione CRM */
 
+.center-sec {
+  padding: 30px 15%;
+
+}
 .shadow {
-  padding: 30px 20%;
-
-}
-.second-sec {
-  box-shadow: 0px 0px 15px 10px rgba(174,174,174,0.1);
+  box-shadow: 0px 0px 15px 10px rgba(170,170,170,0.2);
 }
 
-.second-sec::after {
+.clearfix-sec::after {
   content: "";
   display: table;
   clear: both;
@@ -282,7 +282,7 @@ h3 {
   float: left;
   width: 30%;
   background-color: #fff;
-  min-height: 400px;
+  height: 400px;
   text-align: center;
 }
 
@@ -291,12 +291,12 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 100px;
-  margin-top: 30%;
+  min-height: 150px;
+  margin-top: 25%;
 }
 
 .learnmore {
-  padding: 10% 0 30% 0;
+  padding-top: 30px;
 }
 
 .crm {
@@ -328,4 +328,64 @@ h5 {
 .fa-check-circle {
   color: rgb(255,122,89);
   padding-right: 10px;
+}
+
+/* inizio terza sezione */
+
+.floating-sec {
+  float: left;
+  width: calc(100%/3 - 40px);
+  text-align: center;
+}
+#marketing{
+  background-image: url(../img/Marketing-Hub-Free.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 150px;
+  margin-top: 20px;
+
+}
+
+#sales{
+  background-image: url(../img/Sales-Professional-Illustration.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 150px;
+  margin-top: 20px;
+}
+
+.middle {
+  margin: 0 40px;
+}
+
+#service{
+  background-image: url(../img/Service-Hub-Illustration.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 150px;
+  margin-top: 20px;
+}
+
+.floating-sec > .m-p {
+  margin: 40px;
+  padding-bottom: 40px;
+}
+
+.division {
+  border: 1px solid rgb(51,71,91);
+  margin: 0 40px;
+}
+
+.floating-sec > .align-left {
+  text-align: left;
+  padding: 0;
+  margin: 10px 40px;
+  font-size: 18px;
+}
+
+.floating-sec > .learnmore {
+  padding: 30px 0 40px 0;
 }
