@@ -462,3 +462,38 @@ h5 {
   font-size: 15px;
   font-weight: 500;
 }
+
+/* inizio quinta sezione */
+
+.start-growing {
+  /* background-color: green; */
+  height: 800px;
+}
+
+.first-growing {
+  padding: 30px 10%;
+}
+
+.first-growing::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.customers {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.customers-number {
+  color: rgb(51,71,91);
+  font-size: 50px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.brands {
+  float: right;
+  width: 70%;
+}
