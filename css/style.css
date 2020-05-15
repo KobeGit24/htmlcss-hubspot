@@ -250,7 +250,7 @@ main {
 
 h3 {
   padding: 20px 20px;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   color: rgb(51,71,91);
 }
@@ -282,7 +282,21 @@ h3 {
   float: left;
   width: 30%;
   background-color: #fff;
-  height: 400px;
+  min-height: 400px;
+  text-align: center;
+}
+
+.illustration-logo {
+  background-image: url(../img/CRM-Illustration.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100px;
+  margin-top: 30%;
+}
+
+.learnmore {
+  padding: 10% 0 30% 0;
 }
 
 .crm {
@@ -290,4 +304,28 @@ h3 {
   width: 70%;
   background-color: #fff;
   height: 400px;
+}
+
+h5 {
+  padding: 10% 0 0 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(51,71,91);
+}
+
+.crm > .m-p {
+  padding: 20px 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.crm > .m-p:last-child {
+  padding-bottom: 0;
+}
+
+.fa-check-circle {
+  color: rgb(255,122,89);
+  padding-right: 10px;
 }
