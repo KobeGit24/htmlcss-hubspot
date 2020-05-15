@@ -4,29 +4,15 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
 /* COLOR */
 
 /* #f5f8fa sfondo grigiolino */
 
 /* #ff7a59 arancio dei bottoni */
-
-
-/* COLOR */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* COLOR */
-
-/* rgb(51,71,91) sfondo grigiolino */
-
-/* #ff7a59 arancio dei bottoni */
-
-
-/* COLOR */
 
 
 .centerdx {
@@ -39,10 +25,6 @@
 
 a {
   text-decoration: none;
-}
-
-* {
-  font-family: sans-serif;
 }
 
 .h-container {
@@ -78,7 +60,6 @@ a {
 }
 
 .font-skill {
-  font-size: 20px;
   color: rgb(51,71,91);
   font-weight: 500;
 }
@@ -94,6 +75,10 @@ a {
 .english {
   border-right: 2px solid rgb(51,71,91);
   padding: 5px;
+}
+
+li {
+  display: inline-block;
 }
 
 /* inizio navdx */
@@ -168,13 +153,13 @@ ul {
 }
 
 
-li {
+.navbar-item {
   display: inline-block;
   padding: 10px;
   font-weight: 600;
 }
 
-li > .fas {
+.navbar-item > .fas {
 margin-left: 10px;
 }
 
@@ -229,8 +214,7 @@ h1 {
 /* inizio main */
 
 main {
-  height: 2000px;
-  background-color: rgb(245,248,250);;
+  background-color: rgb(245,248,250);
 }
 
 /* inizio prima sezione cube */
@@ -319,6 +303,13 @@ h5 {
 
 .bold {
   font-weight: 600;
+  display: inline-block;
+}
+
+.crm > .line {
+  display: inline-block;
+  width: 60%;
+  margin: 5px 40px;
 }
 
 .crm > .m-p:last-child {
@@ -337,6 +328,7 @@ h5 {
   width: calc(100%/3 - 40px);
   text-align: center;
 }
+
 #marketing{
   background-image: url(../img/Marketing-Hub-Free.svg);
   background-position: center;
@@ -344,7 +336,6 @@ h5 {
   background-size: contain;
   min-height: 150px;
   margin-top: 20px;
-
 }
 
 #sales{
