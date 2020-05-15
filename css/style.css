@@ -21,7 +21,7 @@
 
 /* COLOR */
 
-/* #f5f8fa sfondo grigiolino */
+/* rgb(51,71,91) sfondo grigiolino */
 
 /* #ff7a59 arancio dei bottoni */
 
@@ -29,8 +29,12 @@
 /* COLOR */
 
 
-.center {
-  padding: 0 20%;
+.centerdx {
+  padding: 0 30% 0 0;
+}
+
+.centersx {
+  padding: 0 0 0 30%;
 }
 
 a {
@@ -75,7 +79,7 @@ a {
 
 .font-skill {
   font-size: 20px;
-  color: #33475b;
+  color: rgb(51,71,91);
   font-weight: 500;
 }
 
@@ -88,7 +92,7 @@ a {
  }
 
 .english {
-  border-right: 2px solid #33475b;
+  border-right: 2px solid rgb(51,71,91);
   padding: 5px;
 }
 
@@ -121,7 +125,7 @@ a {
 }
 
 .fa-search {
-  color: #0099ff;
+  color: rgb(0,153,255);
   font-size: 20px;
   padding: 20px;
 }
@@ -139,10 +143,10 @@ a {
 
 .button:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 /* inizio navbar */
-
 
 .h-navbar::after {
   content: "";
@@ -159,15 +163,131 @@ a {
   height: 150px;
 }
 
-.padd-add {
-  padding-left: 10px;
+ul {
+  list-style: none;
 }
 
 
+li {
+  display: inline-block;
+  padding: 10px;
+  font-weight: 600;
+}
+
+li > .fas {
+margin-left: 10px;
+}
+
+/* inizio jumbo */
+
+.jumbo {
+  background-image: url(../img/jumbotron.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 1000px;
+}
+
+.jumbo::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title {
+  float: left;
+  width: 50%;
+  padding-left: 15%;
+}
+
+h1 {
+  padding: 30px 30px 30px 0;
+  font-size: 80px;
+  font-weight: 600;
+  color: rgb(51,71,91);
+}
+
+.title > .button {
+  padding: 20px 40px;
+  border-radius: 3%;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.h-p {
+  padding: 30px 30px 40px 0;
+  color: rgb(51,71,91);
+  font-size: 20px;
+  letter-spacing: 0.1;
+}
+
+.h-p:last-child {
+  font-size: 15px;
+  padding: 40px 30px 30px 0;
+}
 
 /* inizio main */
 
 main {
   height: 2000px;
-  background-color: green;
+  background-color: rgb(245,248,250);;
+}
+
+/* inizio prima sezione cube */
+
+.first-sec {
+  padding: 30px 20%;
+  text-align: center;
+}
+
+.cube {
+  background-image: url(../img/cube.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 300px;
+}
+
+h3 {
+  padding: 20px 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(51,71,91);
+}
+
+.m-p {
+  padding: 5px 5px;
+  color: rgb(51,71,91);
+  font-size: 20px;
+  letter-spacing: 0.1;
+}
+
+/* inizio seconda sezione CRM */
+
+.shadow {
+  padding: 30px 20%;
+
+}
+.second-sec {
+  box-shadow: 0px 0px 15px 10px rgba(174,174,174,0.1);
+}
+
+.second-sec::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.illustration {
+  float: left;
+  width: 30%;
+  background-color: #fff;
+  height: 400px;
+}
+
+.crm {
+  float: left;
+  width: 70%;
+  background-color: #fff;
+  height: 400px;
 }
