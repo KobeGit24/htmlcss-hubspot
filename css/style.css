@@ -208,6 +208,13 @@ main {
   background-color: rgb(245,248,250);
 }
 
+.zoom {
+  transition: transform 0.3s ease 0.1s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
 /* inizio prima sezione cube */
 
 .first-sec {
