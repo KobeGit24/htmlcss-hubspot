@@ -569,7 +569,6 @@ h5 {
 
 footer {
   background-color: rgb(51,71,91);
-  height: 800px;
 }
 
 .footer-fix::after {
@@ -695,4 +694,17 @@ li > .footer-item:hover {
   color: #cbd6e2;
   padding-top: 20px;
   text-align: left;
+}
+
+/* icona in fixed */
+
+.message-fix {
+  position: fixed;
+  background-color: rgb(51,71,91);
+  color: #fff;
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 20px 20px 15px 20px;
+  bottom: 1%;
+  right: 1%;
 }
