@@ -8,12 +8,6 @@ body {
   font-family: sans-serif;
   font-size: 20px;
 }
-/* COLOR */
-
-/* #f5f8fa sfondo grigiolino */
-
-/* #ff7a59 arancio dei bottoni */
-
 
 .centerdx {
   padding: 0 30% 0 0;
@@ -457,12 +451,11 @@ h5 {
 /* inizio quinta sezione */
 
 .start-growing {
-  /* background-color: green; */
-  height: 800px;
+  /* height: 800px; */
 }
 
 .first-growing {
-  padding: 30px 10%;
+  padding: 30px 5% 30px 10%;
 }
 
 .first-growing::after {
@@ -475,6 +468,7 @@ h5 {
   float: left;
   width: 30%;
   text-align: center;
+  padding-top: 35px;
 }
 
 .customers-number {
@@ -487,4 +481,42 @@ h5 {
 .brands {
   float: right;
   width: 70%;
+  text-align: right;
 }
+
+#atlassian {
+  background-image: url(../img/Atlassian.webp);
+}
+#doordash {
+  background-image: url(../img/doordash.webp);
+}
+#crowd {
+  background-image: url(../img/g2crowd.webp);
+}
+#monkey {
+  background-image: url(../img/monkey.svg);
+}
+#subaru {
+  background-image: url(../img/Subaru.webp);
+}
+#wistia {
+  background-image: url(../img/Wistia.webp);
+}
+#classpass {
+  background-image: url(../img/Classpass.webp);
+}
+#vmware {
+  background-image: url(../img/VMware.webp);
+}
+
+.logo-brand {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+/* inizio sesta sezione */
