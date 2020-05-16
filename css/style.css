@@ -513,6 +513,10 @@ h5 {
 }
 
 /* inizio sesta sezione */
+.second-growing {
+  padding-bottom: 60px;
+}
+
 
 .second-growing::after {
   content: "";
@@ -559,4 +563,136 @@ h5 {
   background-repeat: no-repeat;
   background-size: contain;
   height: 400px;
+}
+
+/* inizio footer */
+
+footer {
+  background-color: rgb(51,71,91);
+  height: 800px;
+}
+
+.footer-fix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-nav {
+  float: left;
+  width: calc(100%/4 - 20px);
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.footer-nav:first-child{
+  margin-left: 0;
+}
+
+.footer-nav:last-child {
+  padding-right: 0;
+}
+
+.footer-list > li {
+  display: block;
+  padding-top: 20px;
+}
+
+.footer-nav > .m-p {
+  color: #fff;
+  padding: 0 0 20px 0;
+}
+
+.footer-item{
+color: #cbd6e2;
+font-weight: bold;
+font-size: 18px;
+}
+
+li > .footer-item:hover {
+  color: rgb(153, 235, 255);
+}
+
+.contact {
+  background-color:#fff;
+  color: rgb(51,71,91);
+  padding: 12px 24px;
+  font-size: 17px;
+  border-radius: 3%;
+}
+
+.footer-btn {
+  padding: 30px 0;
+}
+
+.footer-icon {
+  color:#cbd6e2;
+  font-size: 20px;
+}
+
+.footer-icon > .fab {
+  padding-right: 30px;
+}
+
+.footer-icon > .fab:hover {
+  cursor: pointer;
+  color: rgb(153, 235, 255);
+}
+
+.footer-sec {
+  text-align: center;
+  margin-top: 5%;
+  border-bottom: 2px solid #cbd6e2;
+  padding-bottom: 30px;
+}
+
+.footer-lenguage {
+  color: #cbd6e2;
+  padding: 20px 25px;
+}
+
+.footer-lenguage:hover {
+  color: rgb(153, 235, 255);
+}
+
+.footer-info::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-logo  {
+  float: left;
+  color: #cbd6e2;
+  padding-top: 30px;
+  width: 50%;
+  text-align: left;
+  font-size: 50px;
+}
+
+.privacy {
+  float: right;
+  color: #cbd6e2;
+  padding-top: 30px;
+  width: 50%;
+  text-align: right;
+}
+
+.privacy > span {
+  padding-left: 30px;
+}
+
+.privacy-link {
+  color: #cbd6e2;
+}
+
+.privacy-link:hover {
+  color: rgb(153, 235, 255);
+}
+
+.copyright {
+  color: #cbd6e2;
+  padding-top: 20px;
+  text-align: left;
 }
