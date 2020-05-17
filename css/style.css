@@ -33,7 +33,7 @@ a {
   z-index: 99;
 }
 
-.h-navfix::after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -95,7 +95,6 @@ li {
   padding: 10px 20px;
   border-radius: 5%;
   font-weight: 400;
-  font-size: 20px;
   transition: background-color 0.5s;
 }
 
@@ -105,7 +104,6 @@ li {
 
 .fa-search {
   color: rgb(0,153,255);
-  font-size: 20px;
   padding: 20px;
 }
 
@@ -116,7 +114,6 @@ li {
   border-radius: 5%;
   text-decoration: none;
   font-weight: 500;
-  font-size: 20px;
   transition: opacity 0.5s;
 }
 
@@ -126,12 +123,6 @@ li {
 }
 
 /* inizio navbar */
-
-.h-navbar::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .h-logo {
   background-image: url(../img/logo.svg);
@@ -165,12 +156,6 @@ margin-left: 10px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-height: 1000px;
-}
-
-.jumbo::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .title {
@@ -240,7 +225,6 @@ h3 {
 .m-p {
   padding: 5px 5px;
   color: rgb(51,71,91);
-  font-size: 20px;
   letter-spacing: 0.1;
 }
 
@@ -252,12 +236,6 @@ h3 {
 }
 .shadow {
   box-shadow: 0px 0px 15px 10px rgba(170,170,170,0.2);
-}
-
-.clearfix-sec::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .illustration {
@@ -403,13 +381,6 @@ h5 {
   padding: 0 15%;
 }
 
-
-.gradient-cell::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .gradient-float {
   float: left;
   height: 200px;
@@ -456,12 +427,6 @@ h5 {
 
 .first-growing {
   padding: 30px 5% 30px 10%;
-}
-
-.first-growing::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .customers {
@@ -524,13 +489,6 @@ h5 {
   padding-bottom: 60px;
 }
 
-
-.second-growing::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .start-growing {
   float: left;
   width: 50%;
@@ -576,12 +534,6 @@ h5 {
 
 footer {
   background-color: rgb(51,71,91);
-}
-
-.footer-fix::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .footer-nav {
@@ -634,7 +586,6 @@ li > .footer-item:hover {
 
 .footer-icon {
   color:#cbd6e2;
-  font-size: 20px;
 }
 
 .footer-icon > .fab {
@@ -660,12 +611,6 @@ li > .footer-item:hover {
 
 .footer-lenguage:hover {
   color: rgb(153, 235, 255);
-}
-
-.footer-info::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .footer-logo  {
@@ -714,4 +659,8 @@ li > .footer-item:hover {
   padding: 20px 20px 15px 20px;
   bottom: 1%;
   right: 1%;
+}
+
+.message-fix:hover {
+  cursor: pointer;
 }
