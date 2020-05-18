@@ -1,3 +1,5 @@
+/* B O N U S */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -57,6 +59,31 @@ a {
   border-right: 2px solid rgb(51, 71, 91);
   padding: 5px 15px;
   position: relative;
+}
+
+.h-info>ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid rgb(203, 214, 226);
+
+}
+
+.h-info:hover>ul {
+  display: block;
+}
+
+.h-info ul li {
+  display: block;
+  padding: 10px;
+  transition: color 0.2s;
+}
+
+.h-info ul li:hover{
+  color: rgb(255, 122, 89);
 }
 
 .h-info:last-child {
