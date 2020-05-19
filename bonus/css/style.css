@@ -311,7 +311,7 @@ main {
 
 /* inizio prima sezione cube */
 .first-sec {
-  padding: 30px 22%;
+  padding: 30px 15% 30px 22%;
   text-align: center;
 }
 
@@ -339,7 +339,7 @@ h3 {
 
 /* inizio seconda sezione CRM */
 .center-sec {
-  padding: 30px 22%;
+  padding: 30px 15% 30px 22%;
 }
 
 .shadow {
@@ -494,7 +494,7 @@ width: 40%;
 }
 
 .cell-center {
-  padding: 0 15%;
+  padding: 0 15% 0 22%;
 }
 
 .gradient-float {
@@ -504,7 +504,7 @@ width: 40%;
   text-align: center;
 }
 
-.cell-center .gradient-cell>.no-border {
+.cell-center>.no-border {
   border-right: none;
 }
 
@@ -651,10 +651,14 @@ footer {
   background-color: rgb(51, 71, 91);
 }
 
+.f-center {
+  padding: 30px 12% 30px 22%;
+}
+
 .f-nav {
   float: left;
   width: calc(100%/4 - 20px);
-  padding-right: 15px;
+  padding-right: 12px;
   padding-top: 15px;
   margin-left: 15px;
 }
@@ -666,6 +670,7 @@ footer {
 .f-nav:last-child {
   padding-right: 0;
 }
+
 
 .f-list>li {
   display: block;
