@@ -63,11 +63,6 @@ a {
   border: none;
 }
 
-.h-info:hover {
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 122, 89);
-}
-
 li {
   display: inline-block;
 }
@@ -139,11 +134,6 @@ ul {
 
 .navbar-item>.fas {
   margin-left: 10px;
-}
-
-.navbar-item:hover {
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 122, 89);
 }
 
 /* inizio jumbo */
@@ -571,8 +561,6 @@ footer {
 
 li>.f-item:hover {
   color: rgb(153, 235, 255);
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 122, 89);
 }
 
 .contact {

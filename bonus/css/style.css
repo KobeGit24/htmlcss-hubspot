@@ -90,6 +90,11 @@ a {
   border: none;
 }
 
+.h-info:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 122, 89);
+}
+
 li {
   display: inline-block;
 }
@@ -166,6 +171,11 @@ ul {
   padding: 10px;
   font-weight: 600;
   position: relative;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 122, 89);
 }
 
 .navbar-item>.fas {
@@ -639,6 +649,8 @@ footer {
 
 li>.f-item:hover {
   color: rgb(153, 235, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 122, 89);
 }
 
 .contact {
@@ -680,6 +692,8 @@ li>.f-item:hover {
 
 .f-lenguage:hover {
   color: rgb(153, 235, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 122, 89);
 }
 
 .f-logo {
