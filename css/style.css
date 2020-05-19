@@ -536,6 +536,12 @@ footer {
   margin-left: 20px;
 }
 
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 0 10px 0;
+}
+
 .f-nav:first-child {
   margin-left: 0;
 }
