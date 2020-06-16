@@ -1,0 +1,12 @@
+/* media query */
+
+@media screen and (min-width: 375px) {
+  .button, .log-b, .fa-search, .h-info, .h-nav, .h-navdx, {
+    display: none;
+  }
+
+  .h-container {
+    height: 50px;
+    width: 100%;
+  }
+}
